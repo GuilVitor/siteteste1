@@ -1,0 +1,577 @@
+*{
+    margin: 0%;
+}
+
+body{
+    margin: 0;
+    background-color:#292929 ;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+}
+section{
+    background-image: url(../style/Footbal_Men_Two_Legs_492484_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 30px 5px rgb(179, 177, 177);
+
+}
+
+a{
+   color: white;
+   text-decoration: white;
+   transition: 0.3s;
+}
+a:hover, #img1:hover,#img2:hover,#img3:hover,#img4:hover,#img5:hover, button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: rgb(255, 255,255,0.2);
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+    background:transparent;
+    height: 9vh;
+    justify-content: space-between;
+    
+}
+li{
+    padding: 20px;
+}
+
+#nav-list {
+    letter-spacing: 3px;
+    margin-left: 22px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+
+}
+header #img1{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 5px;
+}
+header #img2{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+header #img3{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+header #img4{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+header #img5{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1px;
+}
+header{
+    width: 87%;
+    height: 30px;
+    background-color:transparent;
+    float: right;
+}
+menu{
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+    width: 83.0%;
+    height: 60px;
+    float: right;
+    margin: 0;
+}
+
+
+nav{
+    
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    display: none;
+}
+
+footer{
+    width: 13.8%;
+    height: 90px;
+    background:radial-gradient(transparent,rgb(58, 57, 57) ) ;
+    float: left;
+    margin-top:-30px;
+    border-radius: 0px 20px 0px 0px;
+    
+}
+footer img{
+  width: 100%;
+  height: 170px;
+  border-radius: 0px 40px 0px 0px;
+  text-align: center;
+  margin-top: -40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+
+}
+main img{
+    width: 100px;
+    height: 100px;
+}
+main{
+    width: 75%;
+    height: 1300px;
+    margin-top: -21px;
+    margin: 5% 12.5% ;
+    align-items: center;
+
+
+}
+#Noticia{
+    margin-top: 50px;
+    
+}
+#Noticia h3{
+    text-align: left;
+    padding: 0px;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+    background:transparent;
+    font-size: 40px;
+    color: white;
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+    box-shadow: 0px 0px 2px white;
+}
+#Noticia p{
+    text-align: left;
+    padding: 0px;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+    background:transparent;
+    margin-top: 0px;
+}
+
+#Noticia img{
+    width: 100%;
+   height: 350px;
+   margin-top: 0px;
+   border-radius: 5px;
+}
+#Noticia h1{
+    float: left;
+    margin-top: 0px;
+    font-size: 31px;
+}
+#dc h1{
+   margin-top: 20px;
+}
+#dc{
+   background-color:#333 ;
+   height: 560px;
+   width: 58%;
+   margin-top: 50px;
+   border-radius: 10px;
+}
+#copinha img{
+    width: 100%;
+    height: 200px;
+    float: right;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+#copinha{
+    width: 40%;
+    background-color:#333;
+    float: right;
+    margin-top: -560px;
+    border-radius: 10px;
+    height: 255px;
+}
+#copinha h4{
+    margin-top: 210px;
+}
+#coutinho{
+    width: 40%;
+    height: 284px;
+    float: right;
+    margin-top: -285px;
+    background-color: #333;
+    border-radius: 10px;
+}
+#coutinho img{
+    height: 220px;
+}
+#coutinho h4{
+    margin-top: 10px;
+    
+}
+#cruzeiro{
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    height: 330px;
+}
+#cruzeiro img{
+    float: left;
+    width: 100%;
+    height: 270px;
+}
+#cruzeiro h4{
+     margin-top: 280px;
+}
+#lukaku{
+    float: right;
+    width: 47.8%;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    height: 330px;
+}
+#lukaku img{
+    float: left;
+    width: 100%;
+    height: 270px;
+}
+#lukaku h4{
+     margin-top: 280px;
+}
+#fla{
+    float: left;
+    width: 31.9%;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    height: 270px;
+}
+#fla img{
+    float: left;
+    width: 100%;
+    height: 210px;
+}
+#fla h4{
+     margin-top: 220px;
+}
+#futebol-na-tv{
+    float: left;
+    width: 31.9%;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:#333;
+    border-radius: 10px;
+    height: 270px;
+    align-items: center;
+}
+#futebol-na-tv img{
+    float: left;
+    width: 100%;
+    height: 210px;
+}
+#futebol-na-tv h4{
+     margin-top: 220px;
+}
+#salah{
+    float: right;
+    width: 31.9%;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    height: 270px;
+    align-items: center;
+}
+#salah img{
+    float: left;
+    width: 100%;
+    height: 210px;
+}
+#salah h4{
+     margin-top: 220px;
+}
+hgroup{
+    width: 75%;
+    height: 1300px;
+    margin-top: -21px;
+    margin: 5% 12.5% ;
+    align-items: center;
+    
+}
+
+#video h3{
+    font-size: 40px;
+    color: white;
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+    box-shadow: 0px 0px 2px white;
+
+}
+#uniformes{
+    width: 49%;
+    margin-top: 50px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: left;
+}
+#uniformes h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#uniformes iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#lodi{
+    width: 49%;
+    margin-top: 50px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: right;
+}
+#lodi h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#lodi iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#psg{
+    width: 49%;
+    margin-top: 20px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: left;
+}
+#psg h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#psg iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#melhor-do-mundo{
+    width: 49%;
+    margin-top: 20px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: right;
+}
+#melhor-do-mundo h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#melhor-do-mundo iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#timao{
+    width: 49%;
+    margin-top: 20px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: right;
+}
+#timao h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#timao iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#selecao{
+    width: 49%;
+    margin-top: 20px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: left;
+}
+#selecao h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#selecao iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+legend{
+    width: 75%;
+    height: 1100px;
+    margin-top: -21px;
+    margin: 5% 12.5% ;
+    align-items: center;
+
+}
+#mercado-da-bola{
+    font-size: 40px;
+    color: white;
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+    box-shadow: 0px 0px 2px white;
+   
+}
+#rafael h4{
+    margin-top: 10px;
+}
+#rafael{
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 65%;
+    height: 590px;
+    background-color: #333;
+    float: left;
+}
+#rafael img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+#leila{
+    margin-top: 50px;
+    width: 33%;
+    height: 300px;
+    float: right;
+    border-radius: 10px;
+    background-color: #333;
+}
+#leila img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#leila h4{
+    font-size: 20px;
+}
+#gremio{
+    margin-top: 20px;
+    width: 33%;
+    height: 270px;
+    float: right;
+    border-radius: 10px;
+    background-color: #333;
+}
+#gremio img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#gremio h4{
+    font-size: 20px;
+}
+#devid{
+    margin-top: 20px;
+    width: 31.8%;
+    height: 300px;
+    float: right;
+    border-radius: 10px;
+    background-color: #333;
+}
+#devid img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#devid h4{
+    font-size: 20px;
+}
+#michael{
+    margin-top: 20px;
+    width: 31.8%;
+    height: 300px;
+    float: right;
+    border-radius: 10px;
+    background-color: #333;
+    margin-right: 20px;
+}
+#michael img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#michael h4{
+    font-size: 20px;
+}
+#matias-vencino{
+    margin-top: 20px;
+    width: 32%;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    background-color: #333;
+    margin-right: 20px;
+}
+#matias-vencino img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#matias-vencino h4{
+    font-size: 20px;
+}
+#mais{
+    width: 180px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 15.5px;
+    box-shadow: 0px 0px 1px 1px rgb(252, 93, 2);
+    float: right;
+  
+    
+}
+#mais h4{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
